@@ -59,7 +59,7 @@
               "fileReplacements": [
                 {
                   "replace": "apps/hub/src/environments/environment.ts",
-                  "with": "apps/hub/src/environments/environment.prod.ts"
+                  "with": "apps/hub/src/environments/environment.sny.ts"
                 }
               ],
               "outputHashing": "all"
