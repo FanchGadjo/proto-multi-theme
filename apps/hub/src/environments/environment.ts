@@ -4,6 +4,8 @@
 
 export const environment = {
   production: false,
+  themeName: 'WW',
+  themeColor: '#991893',
 };
 
 /*

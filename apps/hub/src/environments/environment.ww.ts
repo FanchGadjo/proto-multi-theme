@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  themeName: '',
-  themeColor: '',
+  themeName: 'WW',
+  themeColor: '#991893',
 };

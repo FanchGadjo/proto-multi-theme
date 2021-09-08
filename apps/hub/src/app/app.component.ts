@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from './../environments/environment';
 
 @Component({
   selector: 'xyz-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hub';
+  backgroundColor = environment.themeColor;
+
+  constructor() {
+    this.title = environment.themeName;
+  }
 }
