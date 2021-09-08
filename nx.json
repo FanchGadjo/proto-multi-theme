@@ -33,6 +33,9 @@
     "hub-e2e": {
       "tags": [],
       "implicitDependencies": ["hub"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
